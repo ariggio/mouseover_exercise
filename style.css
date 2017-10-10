@@ -1,0 +1,58 @@
+html body {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	color: red;
+}
+
+.blank {
+	height: 120px;
+}
+
+#box {
+	/* NOTE: MARGIN AUTO HELPS CENTER BOX */
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 350px;
+	border: 1px solid black;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-radius: 1em;
+}
+
+#textbox {
+	padding: 30px 30px;
+}
+
+
+#textbox h3 {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+article {
+	float: left;
+	margin: 20px;
+}
+
+article p {
+	font-size: 18px;
+}
+
+article p:hover {
+	color: red;
+	cursor: pointer;
+}

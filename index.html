@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<title>Mouseover</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="blank"></div>
+	<div class="header">
+		<h1>Mouseover Switch</h1>
+	</div>
+	<div id="box">
+		<div id="textbox">
+			<h3>Critter Face!</h3>
+			<div id="fswitch">
+				<div>
+					<article><p onmouseover="switchFaceLeft()">Left</p></article>
+					<article><img id="face" src="images/left.jpg" width="250px"></article>
+					<article><p onmouseover="switchFaceRight()">Right</p></article>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
